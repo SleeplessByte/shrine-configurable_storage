@@ -40,7 +40,7 @@ class Shrine
         attr_accessor :configuration
       end
 
-      class StorageNotConfigured < RuntimeError
+      class StorageNotConfigured < ::Shrine::Error
       end
 
       module ClassMethods

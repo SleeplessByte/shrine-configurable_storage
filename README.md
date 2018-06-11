@@ -34,7 +34,7 @@ class MyUploader < Shrine
 end
 
 # Somewhere else
-Shrine::Plugins::ConfigurableStorage.configure |config| do
+Shrine::Plugins::ConfigurableStorage.configure do |config|
   config[:foo] = {
     cache: Shrine::Storage::FileSystem.new(...),
     store: Shrine::Storage::S3.new(...)

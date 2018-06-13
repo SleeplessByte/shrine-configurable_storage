@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'shrine-configurable_storage'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['Derk-Jan Karrenbeld']
   spec.email         = ['derk-jan+github@karrenbeld.info']
 

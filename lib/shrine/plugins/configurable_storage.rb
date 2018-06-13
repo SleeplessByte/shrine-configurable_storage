@@ -82,7 +82,7 @@ class Shrine
               "  }.freeze \n" \
               'end',
               storage_name: name,
-              storage_key: @storage_key
+              storage_key: @storage_name
             )
           )
         end

@@ -1,4 +1,4 @@
-# shrine-configurable_storage
+# Shrine::Plugins::ConfigurableStorage
 [![Build Status](https://travis-ci.com/SleeplessByte/shrine-configurable_storage.svg?branch=master)](https://travis-ci.com/SleeplessByte/shrine-configurable_storage)
 [![Gem Version](https://badge.fury.io/rb/shrine-configurable_storage.svg)](https://badge.fury.io/rb/shrine-configurable_storage)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
